@@ -4,7 +4,8 @@ require 'json'
 
 get '/' do
   headers \
-    "Access-Control-Allow-Origin"  => "*",
+    "Access-Control-Allow-Origin"  => "http://localhost",
+    "Access-Control-Allow-Origin"  => "http://www.joshnabbott.com",
     "Access-Control-Allow-Methods" => "GET"
 
   content_type :json
